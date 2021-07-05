@@ -1,0 +1,216 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(main.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	width: 100%;
+	overflow: hidden;
+    position: fixed;
+	padding: 6px;
+    justify-content: center;
+    margin-bottom: 10px;
+	text-decoration: none;
+	background-color:rgb(236, 190, 129);
+}
+.header a{
+	display: block;
+	color:black;
+	display:inline-block;
+	justify-content: center;
+}
+.header a:hover{
+    background:rgb(236, 190, 129);
+    text-decoration: underline;
+}
+a{
+	font-size: 20px;
+	padding: 30px;
+	color: black;
+} 
+.header a.Active{
+	background-color:orange;
+}
+.search{
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+.logo{
+padding-top: 30px;
+padding-right: 20px;
+}
+.mainn{
+	top: 100;
+	width: 100%;
+}
+
+.body1{
+	width: 30%;
+	padding-top: 350px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 900px;
+	float: right;	
+}
+.datas{
+	display: flex;
+	flex-direction: column;
+}
+.section1{
+    width: 90%;
+	margin:10px;
+	margin-top: 320px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justified;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(17, 14, 14);
+	font-size: 20px;
+	float: left;
+	
+}
+.section2{
+	width: 60%;
+	font-family: Arial, Helvetica, sans-serif;  
+	font-size: 20px;
+	margin:10px;
+	padding: 10px;
+}
+.section3{
+	width: 60%;
+	font-family: Arial, Helvetica, sans-serif;  
+	font-size: 20px;
+	margin:10px;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+.pager{
+	float: right;
+	padding: 50px;
+	width: 40%;
+	height: 80%;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+.sections1{
+	width: 50%;
+	text-align: justify;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif; 
+	padding-top: 300px;
+	padding-left: 40px;
+	
+}
+.fa {
+	flex: row;
+	padding: 10px;
+	font-size: 30px;
+	width: 98.5%;
+	text-align: center;
+	text-decoration: none;
+}
+.fa:hover{
+	opacity: 10;
+}
+.fa-instagram {
+	background-color: rgb(36, 20, 7);
+	color: rgb(224, 221, 26);
+}
+.fa-facebook {
+	background-color: rgb(36, 23, 13);
+	color: rgb(224, 245, 35);
+}
+.fa-google {
+	background-color: rgb(36, 24, 13);
+	color: rgb(225, 240, 15);
+}
+@media only screen and (min-width:375px) and (max-width:667px) {
+    .header{
+	font-size: 10px;
+	padding: 0px;
+	color: black;
+	}
+	.search{
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}
+	.logo{
+			padding-top: 10px;
+			padding-right: 10px;
+	}
+	.body1{
+	display: none;
+	}
+	.section1{
+     width: 90%;
+	 margin-left: 10px;
+	 margin-right: 10px;  
+	 background-color:rgb(236, 190, 129);  
+	 text-align: justify;
+	 font-size: initial;
+   }
+    .section2{
+	width: 90%;
+	margin-left: 10px;
+	margin-right: 10px;  
+	background-color:rgb(236, 190, 129);  
+	text-align: justify;
+	font-size: initial;
+}
+.section3{
+	width: 90%;
+	margin-left: 10px;
+	margin-right: 10px;  
+	background-color:rgb(236, 190, 129);  
+	text-align: justify;
+	font-size: initial;
+}}
+@media screen and (min-width:768px) and (max-width: 1024px) {
+	.body1{
+	display: block;
+	padding-top: 300px;
+	}
+	.section1{
+	width: 90%;
+	margin-left: 20px;
+	margin-right: 10px;  
+	background-color:rgb(236, 190, 129);
+	font-size: initial;
+
+	}
+    .section2{
+		width: 90%;
+		margin-left: 20px;
+		margin-right: 10px;  
+		background-color:rgb(236, 190, 129);
+		font-size: initial;
+	}
+	.section2{
+		width: 90%;
+		margin-left: 20px;
+		margin-right: 10px;  
+		background-color:rgb(236, 190, 129);
+		font-size: initial;
+	}
+	.section3{
+		width: 90%;
+		margin-left: 20px;
+		margin-right: 10px;  
+		background-color:rgb(236, 190, 129);
+		font-size: initial;
+	}
+}
